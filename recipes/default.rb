@@ -42,7 +42,7 @@ else
 
   #leave this on by default
   firewall_rule "ssh" do
-    port 22
+    port node['firewall']['ssh_port']
     action :allow
   end
 
