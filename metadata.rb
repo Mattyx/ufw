@@ -1,6 +1,6 @@
 name             "ufw"
-maintainer       "Opscode, Inc."
-maintainer_email "matt@opscode.com"
+maintainer       "Matteo Bonora"
+maintainer_email "matteo@bonora.eu"
 license          "Apache 2.0"
 description      "Installs/Configures ufw"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
